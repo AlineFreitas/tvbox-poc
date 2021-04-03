@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderModule } from './header/header.module';
 import { NavMenuModule } from './nav-menu/nav-menu.module';
+import { DashboardModule } from './dashboard/dashboard.module';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { NavMenuModule } from './nav-menu/nav-menu.module';
     BrowserModule,
     HeaderModule,
     NavMenuModule,
+    DashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
