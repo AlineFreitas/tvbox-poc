@@ -1,6 +1,6 @@
 .mat-toolbar.mat-primary {
-    background-color: #4A4150;
-    color: #E4E0DD;
+    background-color: var(--primary-color-darker);
+    color: var(--accent-color);
 }
 .mat-toolbar-single-row {
     display: flex;
