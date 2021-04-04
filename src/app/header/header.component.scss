@@ -5,11 +5,17 @@
 .mat-toolbar-single-row {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-.tools, .settings {
+.configure, .about, .tools, .settings {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
+}
+.configure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .mat-divider.mat-divider-vertical {
     border-top-color: rgba(228, 224, 221, 0.5);

@@ -1,33 +1,32 @@
-<div class="header">
+<mat-toolbar color="primary" class="small">
+  <div class="about">
+    <app-about></app-about>
+  </div>
 
-    <mat-toolbar color="primary" class="small">
-        <div class="about">
-            <app-about></app-about>
-        </div>
+  <div class="configure">
+    <div class="tools">
+      <div class="searchbox">
+        <mat-icon>search</mat-icon>
+        <input type="search" id="searchbox" placeholder="Search">
+      </div>
+      <div class="profile">
+        <mat-icon>person</mat-icon>
+      </div>
+      <div class="notifications">
+        <mat-icon>notifications</mat-icon>
+      </div>
+    </div>
 
-        <div class="tools">
-            <div class="searchbox">
-                <mat-icon>search</mat-icon>
-                <input type="search" id="searchbox" placeholder="Search">
-            </div>
-            <div class="profile">
-                <mat-icon>person</mat-icon>
-            </div>
-            <div class="notifications">
-                <mat-icon>notifications</mat-icon>
-            </div>
-        </div>
+    <mat-divider [vertical]="true"></mat-divider>
 
-        <mat-divider [vertical]="true"></mat-divider>
-
-        <div class="settings">
-            <div class="connections">
-                <mat-icon>wifi</mat-icon>
-                <mat-icon>bluetooth</mat-icon>
-            </div>
-            <div class="datetime">
-                19:02
-            </div>
-        </div>
-    </mat-toolbar>
-</div>
+    <div class="settings">
+      <div class="connections">
+        <mat-icon>wifi</mat-icon>
+        <mat-icon>bluetooth</mat-icon>
+      </div>
+      <div class="datetime">
+        19:02
+      </div>
+    </div>
+  </div>
+</mat-toolbar>
