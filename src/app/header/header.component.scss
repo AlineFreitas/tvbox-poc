@@ -13,9 +13,6 @@
     flex-direction: row;
     justify-content: baseline;
 }
-.settings {
-    margin-right: 10px;
-}
 .configure {
     display: flex;
     flex-direction: row;
@@ -25,5 +22,5 @@
     border-top-color: rgba(228, 224, 221, 0.5);
     height: 40px;
     border-right-width: 4px;
-    margin: 10px;
+    margin: var(--default-margin);
 }
