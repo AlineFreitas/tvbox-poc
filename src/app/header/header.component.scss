@@ -1,0 +1,13 @@
+.mat-toolbar.mat-primary {
+    background-color: #4A4150;
+    color: #E4E0DD;
+}
+.mat-toolbar-single-row {
+    display: flex;
+    flex-direction: row;
+}
+.tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
