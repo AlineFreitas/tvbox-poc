@@ -7,8 +7,7 @@
     --primary-color-darker: #5D5174;
     --primary-color-dark: #4A4150;
     body {
-        background-color: var(--primary-color-darker);
-        color: var(--accent-color);
-        padding: 0 20px 0 20px;
+        background-color: var(--accent-color);
+        padding: 0;
     }
 }

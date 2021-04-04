@@ -1,17 +1,20 @@
 .mat-toolbar.mat-primary {
-    background-color: var(--primary-color-darker);
+    background-color: var(--primary-color-dark);
     color: var(--accent-color);
 }
 .mat-toolbar-single-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0;
+    padding: 0 10px;
 }
 .configure, .about, .tools, .settings {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
+}
+.settings {
+    margin-right: 10px;
 }
 .configure {
     display: flex;
