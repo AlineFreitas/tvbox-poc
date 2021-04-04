@@ -1,1 +1,9 @@
-<p>nav-menu works!</p>
+<div class="nav-menu">
+    <nav>
+        <ul>
+            <li *ngFor="let nav of NAV_ITEMS">
+                {{nav.title}}
+            </li>
+        </ul>
+    </nav>
+</div>
